@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>About</class>
+ <widget class="QDialog" name="About">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>659</width>
+    <height>425</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>О программе</string>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>10</y>
+     <width>581</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Авторы&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Малков Федор Сергеевич. Аспирант ИДСТУ СО РАН, г. Иркутск. +7-924-833-38-34; malkov@icc.ru&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;При поддержке ФГБНУ &amp;quot;Научный центр проблем здоровья семьи и репродукции человека&amp;quot;, г. Иркутск  &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;ИНСТРУКЦИЯ&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Скачать три архива с сайта &lt;/span&gt;&lt;a href=&quot;https://www.kaggle.com/c/intel-mobileodt-cervical-cancer-screening/data&quot;&gt;&lt;span style=&quot; font-size:8pt; text-decoration: underline; color:#0000ff;&quot;&gt;kaggle.com (https://www.kaggle.com/c/intel-mobileodt-cervical-cancer-screening/data)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Скачиваем архивы &lt;/span&gt;&lt;span style=&quot; font-family:'Atlas Grotesk,sans-serif'; font-size:8pt; color:rgba(0,0,0,0.694118); background-color:rgba(225,240,246,0.294118);&quot;&gt;additional_Type_1_v2.7z, additional_Type_2_v2.7z и additional_Type_3_v2.7z (в сумме 25.7 ГБ)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Atlas Grotesk,sans-serif'; font-size:8pt; color:rgba(0,0,0,0.694118); background-color:rgba(225,240,246,0.294118);&quot;&gt;Распаковываем их в папки на компьютере.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Atlas Grotesk,sans-serif'; font-size:8pt; color:rgba(0,0,0,0.694118); background-color:rgba(225,240,246,0.294118);&quot;&gt;Переходим в папку с этой программой. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Atlas Grotesk,sans-serif'; font-size:8pt; color:rgba(0,0,0,0.694118); background-color:rgba(225,240,246,0.294118);&quot;&gt;Из папок Type_1, Type_2 и Type_3 копируем или перемещаем изображения в папки cin/1; cin/2 и cin/3&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Atlas Grotesk,sans-serif'; font-size:8pt; color:rgba(0,0,0,0.694118); background-color:rgba(225,240,246,0.294118);&quot;&gt;Перезапускаем программу&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Atlas Grotesk,sans-serif'; font-size:8pt; color:rgba(0,0,0,0.694118); background-color:rgba(225,240,246,0.294118);&quot;&gt;По умолчанию, вместе с программой поставляется по два изображения для CIN1..CIN3&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Atlas Grotesk,sans-serif'; font-size:10pt; font-weight:600; color:rgba(0,0,0,0.694118); background-color:rgba(225,240,246,0.294118);&quot;&gt;ВЕРСИЯ&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Atlas Grotesk,sans-serif'; font-size:8pt; color:rgba(0,0,0,0.694118); background-color:rgba(225,240,246,0.294118);&quot;&gt;Версия программы 1.0.2. &lt;br /&gt;6 марта 2019 года&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Atlas Grotesk,sans-serif'; font-size:8pt; color:rgba(0,0,0,0.694118);&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>370</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
